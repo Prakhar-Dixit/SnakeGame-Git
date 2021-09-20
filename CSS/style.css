@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Grey+Qo&family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: url("../mowgli.jpg");
+    /* background: url("../bg-1.gif"); */
+    /* background: url("../junglebook2.jpg"); */
+    min-height: 100vh;
+    background-size: 103vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    /* background-repeat: no-repeat;
+    background-size: 30vw 100vh; */
+}
+
+#scoreBox{
+    position: absolute;
+    color: white;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Grey Qo', cursive;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    color: white;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Are You Serious', cursive;
+    font-family: 'Grey Qo', cursive;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    background: linear-gradient(yellow, orange);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+       display: grid;
+       grid-template-rows: repeat(18,1fr);
+       grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background: linear-gradient(rgb(250, 146, 146),yellow);
+    border: 2px solid purple;
+transform: scale(1.02);
+border-radius: 9px;
+}
+
+.snake{
+background-color: purple;
+border: .25vmin solid white;
+border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(red,purple);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}

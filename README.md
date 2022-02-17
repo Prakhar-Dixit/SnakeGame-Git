@@ -1,3 +1,3 @@
 # SnakeGame-Git
-This game is created to teach young children who are interested in web technologies a little use of HTML, CSS and JavaScript.
-So, here we build a basic snake game using web technologies and you can also try it. 
+This game is solely created for learning purpose because as a very begginer in web development I think a snake game would be a great thing to get started with. 
+In the whole process of developing this game I'have learned how to use HTML and a basic amount of CSS and JavaScript as well.
